@@ -1,0 +1,24 @@
+@media screen and (min-width: 480px) {
+    .header-buttons button{
+        font-size: 1.5rem;
+    }
+    .aboutme-aboutme-img{
+        padding:5rem;
+    }
+    .skills-aboutme{
+        padding: 10rem;
+    }
+    .targetskills{
+    
+        display: flex;
+        flex-direction: column;
+        width: 40rem;
+        min-width: 40rem;
+        height: 100%;
+        gap: 1rem;
+        background-color: #1F2937;
+        
+        padding: 1rem;
+        border-radius: 5px;
+    }
+}

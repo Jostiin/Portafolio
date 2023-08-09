@@ -1,0 +1,106 @@
+/*---------------HEADER----------------*/
+.header{
+    z-index: 100;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    width: 100%;
+    position: fixed;
+    
+    background-color: #111827;
+
+    
+}
+/*-------------HEADER-LOGO--------------*/
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+
+/*-------------BUTTON-GITHUB--------------*/
+.header-btn-a{
+    display: flex;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+    background: linear-gradient(to right, #333399, #ff00cc); 
+    color: white;
+    padding: .5rem 1rem;
+    
+    display: flex;
+    gap: .5rem;
+
+    border-radius: 5px;
+
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+
+.header-btn-a:hover{
+    
+    background: #4fc3dc44;
+}
+
+.header-img{
+    
+    width: 2rem;
+}
+.header-btn-a-img{
+    width: 1.5rem;
+    
+}
+/*-------------BUTTONS-NAVBAR--------------*/
+.header-buttons{
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    box-sizing: content-box;
+    
+}
+.header-buttons button{
+    padding: .5rem;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+    
+}
+
+.header-buttons button span{
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+    background: linear-gradient(to right, #333399, #ff00cc); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.header-buttons button:hover{
+    background:transparent;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #333399, #ff00cc);
+    border-image-slice: 1;
+    border-radius: 5px;
+ 
+}
+
+    
+
+/*----------------NAV-----------------*/
+.header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    animation: backInDown; 
+ 
+    animation-duration: 3s; 
+}

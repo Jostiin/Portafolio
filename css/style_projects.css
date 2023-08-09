@@ -1,0 +1,121 @@
+.PROJECTS{
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #111827;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projects-header{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    background-color: white;
+  
+    background-color: #111827;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #374151;
+    text-align: center;
+
+    width: 100%;
+}
+.projects-aboutme{
+    background-color: #111827;
+    border: 1px solid #374151;
+    padding: 2rem;
+    color: white;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.projects-aboutme::-webkit-scrollbar{
+    background-color:transparent;
+}
+.projects-aboutme::-webkit-scrollbar-thumb{
+    background-color: #1F2937;
+   
+}
+
+.projects-header h1{
+   
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.projects-header > span{
+    font-size: 4rem;
+
+    animation: glow 2s ease-in-out infinite;
+}
+   
+.projects-header > span:nth-child(2){
+    animation-delay: .25s;
+}
+.projects-header > span:nth-child(3){
+    animation-delay: .5s;
+}
+.projects-header > span:nth-child(4){
+    animation-delay: .75s;
+}
+.projects-header > span:nth-child(5){
+    animation-delay: 1s;
+}
+.projects-header > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+
+/*-----------------TARGET-PROJECTS-----------------*/
+
+.targetprojects{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    gap: 1rem;
+    background-color: #1F2937;
+    filter: drop-shadow(5px 5px 10px black);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.targetprojects-img{
+    border-radius: 5px;
+}
+.state{
+    background-color: #333399;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    padding: .5rem;
+    border-radius: 5px;
+}
+.content span{
+    font-size: 1.5rem;
+}
+.content p{
+    font-size: .8rem;
+    color: gray;
+}
+.off{
+    background-color: #d62828;
+}
+.on{
+    background-color: #00f5d4
+}

@@ -1,0 +1,158 @@
+/*-----------------SKILLS-----------------*/
+
+.SKILLS{
+    
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #111827;
+    justify-content: center;
+    align-items: center;
+}
+.skills-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+   
+  
+    background-color: #111827;
+    color: white;
+    border-radius: 5px;
+    
+    text-align: center;
+
+}
+
+.skills-header > span{
+    font-size: 3rem;
+    animation: glow 2s ease-in-out infinite;
+}
+   
+.skills-header > span:nth-child(2){
+    animation-delay: .25s;
+}
+.skills-header > span:nth-child(3){
+    animation-delay: .5s;
+}
+.skills-header > span:nth-child(4){
+    animation-delay: .75s;
+}
+.skills-header > span:nth-child(5){
+    animation-delay: 1s;
+}
+.skills-header > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+
+
+.skills-aboutme{
+    background-color: #111827;
+
+    padding: 3rem;
+   
+    color: white;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    width: 70rem;
+    
+    overflow-x: auto;
+    gap: 1rem;
+    
+}
+
+.skills-aboutme::-webkit-scrollbar{
+    background-color:transparent;
+}
+.skills-aboutme::-webkit-scrollbar-thumb{
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+    background: linear-gradient(to right, #333399, #ff00cc); 
+    border-radius: 5px;
+   
+}
+.skills-header h1{
+   
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/**/
+.targetskills{
+    
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    min-width: 15rem;
+    height: 100%;
+    gap: 1rem;
+    background-color: #1F2937;
+    
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#python{
+    background-image: url("https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1271135/regular_1708x683_cover-0318-PhytonParameterization_Dan_Newsletter-b9dfeef97a76cce4ba5d826d3fff10ce.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#js{
+    background-image: url("https://play-lh.googleusercontent.com/rfWOJQVBHoAZ_B43v0ySFlLmJBLtksVGAxGaFRh2ex4nOmNQ86qzG4sYWV63IKrXlvI");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#php{
+    background-image: url("https://www.vpsserver.com/static_content/vpsserver_com_frontend/img/php-versions.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nodejs{
+    background-image: url("https://www.muylinux.com/wp-content/uploads/2022/04/nodejs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#html{
+    background-image: url("https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2018/11/what-is-html-3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#css{
+    background-image: url("https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#CSharp{
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--2XdEnCAM--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/di-collection-posts/assets/blog-cover/c-sharp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#laravel{
+    background-image: url("https://pbs.twimg.com/profile_images/1163911054788833282/AcA2LnWL_400x400.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.control{
+    display: flex;
+    gap: 1rem;
+}
+.off{
+    background-color: #d62828;
+}
+.on{
+    background-color: #00f5d4
+}
